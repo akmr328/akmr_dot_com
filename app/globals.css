@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,6 +20,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Playfair Display', serif;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -32,31 +35,11 @@ body {
   }
 }
 
-
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: italic;
-  font-weight: 400; /* Regular Italic */
-  font-display: swap;
-  src: url('/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700; /* Bold */
-  font-display: swap;
-  src: url('/fonts/PlatfairDisplayBold.ttf') format('truetype');
-}
-
 .playfair-display {
   font-family: 'Playfair Display', serif;
-  font-weight: 400; /* Regular */
-  font-size: 1.5rem; /* Adjust size as needed */
 }
 
 .playfair-display-bold {
   font-family: 'Playfair Display', serif;
-  font-weight: 700; /* Bold */
-  font-size: 2rem; /* Adjust size as needed */
+  font-weight: 700;
 }

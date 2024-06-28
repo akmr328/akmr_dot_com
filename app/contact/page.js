@@ -3,10 +3,11 @@ import AppBar from "../components/appbar";
 
 const Contact = () => {
     return (
-        <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/background1.jpg')" }}>
+        <div className="relative min-h-screen">
+           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/assets/background1.jpg')" }}></div>
             <div className="absolute inset-0 bg-black opacity-20"></div> 
             <AppBar />
-            <main className="flex flex-col items-center justify-center min-h-screen">
+            <main className="relative z-10 flex flex-col items-center justify-center min-h-screen">
                 <div className="flex flex-col items-center text-center text-white mt-16 space-y-4"> 
                     <a 
                         href="mailto:akm328@gmail.com" 
