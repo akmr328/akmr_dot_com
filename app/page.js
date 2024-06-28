@@ -8,7 +8,7 @@ export default function Home() {
         <main className="flex flex-col items-center justify-center min-h-screen">
             <div className="max-w-lg text-center text-white">
                 <h2 className="font-serif text-4xl font-bold leading-snug">
-                    Hi, I'm Annie. <br /> Developer. <br /> Art Historian. <br /> Pizza Lover. Mother. <br /> Aries. Irish.
+                    Hi, I&#39;m Annie. <br /> Developer. <br /> Art Historian. <br /> Pizza Lover. Mother. <br /> Aries. Irish.
                 </h2>
             </div>
         </main>
