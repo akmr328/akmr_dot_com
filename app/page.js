@@ -1,11 +1,4 @@
-import AppBar from "./ui/appbar";
-
-// const backgroundImages = [
-//   'assets/background1.jpg',
-//   'assets/background2.jpg',
-//   'assets/background3.jpg',
-//   'assets/background4.jpg',
-// ]
+import AppBar from "./components/appbar";
 
 export default function Home() {
   return (
@@ -19,6 +12,13 @@ export default function Home() {
                 </h2>
             </div>
         </main>
-    </div>
+        {/* <style jsx>{`
+                @media (max-width: 640px) {
+                    .bg-cover {
+                        background-image: url('/assets/backgroundmobile.jpg');
+                    }
+                }
+            `}</style> */}
+   </div>
 );
 };
