@@ -8,6 +8,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-image-desktop: url('/assets/background1.jpg');
+  --background-image-mobile: url('/assets/backgroundmobile.jpg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,11 +29,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-image: var(--background-image-desktop);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    background-image: var(--background-image-mobile);
   }
 }
 

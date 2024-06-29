@@ -2,7 +2,7 @@ import AppBar from "./components/appbar";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/background1.jpg')" }}>
+    <div className="relative min-h-screen bg-cover bg-center">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <AppBar />
         <main className="flex flex-col items-center justify-center min-h-screen">

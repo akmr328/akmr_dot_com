@@ -4,7 +4,7 @@ import AppBar from "../components/appbar";
 const Contact = () => {
     return (
         <div className="relative min-h-screen">
-           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/assets/background1.jpg')" }}></div>
+           <div className="absolute inset-0 bg-cover bg-center"></div>
             <div className="absolute inset-0 bg-black opacity-20"></div> 
             <AppBar />
             <main className="relative z-10 flex flex-col items-center justify-center min-h-screen">
